@@ -1,22 +1,23 @@
+
 //
-//  ViewController.m
+//  HomeViewController.m
 //  YouZhi
 //
 //  Created by Arvin on 15/3/3.
 //  Copyright (c) 2015年 com.roroge. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HomeViewController.h"
 
-@interface ViewController ()
+@interface HomeViewController ()
 
 @end
 
-@implementation ViewController
+@implementation HomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
