@@ -14,6 +14,7 @@
 		A24E9F9C1AA5539200C63583 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24E9F9B1AA5539200C63583 /* Images.xcassets */; };
 		A24E9F9F1AA5539200C63583 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24E9F9D1AA5539200C63583 /* LaunchScreen.xib */; };
 		A24E9FAB1AA5539200C63583 /* YouZhiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A24E9FAA1AA5539200C63583 /* YouZhiTests.m */; };
+		A24E9FB51AA5548700C63583 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A24E9FB41AA5548700C63583 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		A24E9FA41AA5539200C63583 /* YouZhiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouZhiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24E9FA91AA5539200C63583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A24E9FAA1AA5539200C63583 /* YouZhiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YouZhiTests.m; sourceTree = "<group>"; };
+		A24E9FB41AA5548700C63583 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		A24E9F821AA5539200C63583 = {
 			isa = PBXGroup;
 			children = (
+				A24E9FB41AA5548700C63583 /* README.md */,
 				A24E9F8D1AA5539200C63583 /* YouZhi */,
 				A24E9FA71AA5539200C63583 /* YouZhiTests */,
 				A24E9F8C1AA5539200C63583 /* Products */,
@@ -81,6 +84,10 @@
 		A24E9F8D1AA5539200C63583 /* YouZhi */ = {
 			isa = PBXGroup;
 			children = (
+				A24E9FB61AA554B400C63583 /* Other */,
+				A24E9FB71AA554B400C63583 /* Problem */,
+				A24E9FB81AA554B400C63583 /* Project */,
+				A24E9FB91AA554B400C63583 /* Resource */,
 				A24E9F921AA5539200C63583 /* AppDelegate.h */,
 				A24E9F931AA5539200C63583 /* AppDelegate.m */,
 				A24E9F951AA5539200C63583 /* ViewController.h */,
@@ -117,6 +124,34 @@
 				A24E9FA91AA5539200C63583 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A24E9FB61AA554B400C63583 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A24E9FB71AA554B400C63583 /* Problem */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Problem;
+			sourceTree = "<group>";
+		};
+		A24E9FB81AA554B400C63583 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		A24E9FB91AA554B400C63583 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +256,7 @@
 			files = (
 				A24E9F971AA5539200C63583 /* ViewController.m in Sources */,
 				A24E9F941AA5539200C63583 /* AppDelegate.m in Sources */,
+				A24E9FB51AA5548700C63583 /* README.md in Sources */,
 				A24E9F911AA5539200C63583 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +450,7 @@
 				A24E9FB01AA5539200C63583 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A24E9FB11AA5539200C63583 /* Build configuration list for PBXNativeTarget "YouZhiTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +459,7 @@
 				A24E9FB31AA5539200C63583 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
