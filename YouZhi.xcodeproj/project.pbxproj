@@ -18,6 +18,8 @@
 		A24E9FC41AA55BBC00C63583 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24E9FC21AA55BBC00C63583 /* BaseViewController.m */; };
 		A24E9FC51AA55BBC00C63583 /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24E9FC31AA55BBC00C63583 /* BaseViewController.xib */; };
 		A24E9FCA1AA5674900C63583 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A24E9FC91AA5674900C63583 /* Common.m */; };
+		A24E9FD41AA5717C00C63583 /* KissAssVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A24E9FD21AA5717C00C63583 /* KissAssVC.m */; };
+		A24E9FD51AA5717C00C63583 /* KissAssVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24E9FD31AA5717C00C63583 /* KissAssVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		A24E9FC31AA55BBC00C63583 /* BaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
 		A24E9FC81AA5674900C63583 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		A24E9FC91AA5674900C63583 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		A24E9FD11AA5717C00C63583 /* KissAssVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KissAssVC.h; sourceTree = "<group>"; };
+		A24E9FD21AA5717C00C63583 /* KissAssVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KissAssVC.m; sourceTree = "<group>"; };
+		A24E9FD31AA5717C00C63583 /* KissAssVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KissAssVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +97,7 @@
 		A24E9F8D1AA5539200C63583 /* YouZhi */ = {
 			isa = PBXGroup;
 			children = (
+				A24E9FC61AA5672600C63583 /* Lib */,
 				A24E9FB61AA554B400C63583 /* Other */,
 				A24E9FB71AA554B400C63583 /* Problem */,
 				A24E9FB81AA554B400C63583 /* Project */,
@@ -148,7 +154,7 @@
 		A24E9FB81AA554B400C63583 /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				A24E9FC61AA5672600C63583 /* Lib */,
+				A24E9FD01AA56AF200C63583 /* KissAss */,
 				A24E9FC01AA55BAE00C63583 /* Base */,
 				A24E9FBA1AA558B100C63583 /* Home */,
 			);
@@ -187,7 +193,8 @@
 			children = (
 				A24E9FC71AA5673800C63583 /* Common */,
 			);
-			path = Lib;
+			name = Lib;
+			path = Project/Lib;
 			sourceTree = "<group>";
 		};
 		A24E9FC71AA5673800C63583 /* Common */ = {
@@ -197,6 +204,16 @@
 				A24E9FC91AA5674900C63583 /* Common.m */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		A24E9FD01AA56AF200C63583 /* KissAss */ = {
+			isa = PBXGroup;
+			children = (
+				A24E9FD11AA5717C00C63583 /* KissAssVC.h */,
+				A24E9FD21AA5717C00C63583 /* KissAssVC.m */,
+				A24E9FD31AA5717C00C63583 /* KissAssVC.xib */,
+			);
+			path = KissAss;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +298,7 @@
 			files = (
 				A24E9FBF1AA558D800C63583 /* Home.storyboard in Resources */,
 				A24E9FC51AA55BBC00C63583 /* BaseViewController.xib in Resources */,
+				A24E9FD51AA5717C00C63583 /* KissAssVC.xib in Resources */,
 				A24E9F9F1AA5539200C63583 /* LaunchScreen.xib in Resources */,
 				A24E9F9C1AA5539200C63583 /* Images.xcassets in Resources */,
 			);
@@ -300,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A24E9FD41AA5717C00C63583 /* KissAssVC.m in Sources */,
 				A24E9FCA1AA5674900C63583 /* Common.m in Sources */,
 				A24E9F941AA5539200C63583 /* AppDelegate.m in Sources */,
 				A24E9FC41AA55BBC00C63583 /* BaseViewController.m in Sources */,

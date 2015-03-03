@@ -8,8 +8,10 @@
 //
 
 #import "HomeViewController.h"
+#import "KissAssVC.h"
 
 @interface HomeViewController ()
+@property (strong, nonatomic) IBOutlet UIButton *codeBtn;
 
 @end
 
@@ -18,6 +20,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+- (IBAction)codeBtnClick:(id)sender {
+    KissAssVC *kissAssVC = [[KissAssVC alloc] initWithNibName:@"KissAssVC" bundle:nil];
+    [self presentViewController:kissAssVC animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
