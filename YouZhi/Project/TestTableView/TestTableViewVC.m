@@ -42,8 +42,7 @@
     NSDictionary *testDataFive = [NSDictionary dictionaryWithObjectsAndKeys:@"005",@"id",@"la",@"title",@"djmgole",@"name", nil];
     NSDictionary *testDataSix = [NSDictionary dictionaryWithObjectsAndKeys:@"006",@"id",@"la",@"title",@"就感觉",@"name", nil];
     
-//    self.dataArray = @[testDataOne,testDataTwo,testDataThree,testDataFour,testDataFive,testDataSix];
-        self.dataArray = [NSMutableArray arrayWithObjects:testDataOne,testDataTwo,testDataThree,testDataFour,testDataFive,testDataSix, nil];
+    self.dataArray = [NSMutableArray arrayWithObjects:testDataOne,testDataTwo,testDataThree,testDataFour,testDataFive,testDataSix, nil];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
