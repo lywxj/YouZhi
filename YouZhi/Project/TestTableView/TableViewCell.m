@@ -26,7 +26,7 @@
     
     self.headView.layer.cornerRadius = self.headView.frame.size.width/2;
     self.headView.layer.masksToBounds = YES;
-    self.cellBgView.layer.cornerRadius = 10;
+    self.cellBgView.layer.cornerRadius = 5;
     self.cellBgView.layer.masksToBounds = NO;
     self.cellBgView.backgroundColor = RGB(250, 250, 250);
 }
