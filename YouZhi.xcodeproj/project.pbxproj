@@ -11,6 +11,10 @@
 		A24A553F1AA69CF100544EEA /* TestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A24A553E1AA69CF000544EEA /* TestManager.m */; };
 		A24A55431AA6A26C00544EEA /* TestObjVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A24A55421AA6A26C00544EEA /* TestObjVC.m */; };
 		A24A55451AA6A59B00544EEA /* TestObjVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24A55441AA6A59B00544EEA /* TestObjVC.xib */; };
+		A24A554A1AA6B7D700544EEA /* TestTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A24A55481AA6B7D700544EEA /* TestTableViewVC.m */; };
+		A24A554B1AA6B7D700544EEA /* TestTableViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24A55491AA6B7D700544EEA /* TestTableViewVC.xib */; };
+		A24A554F1AA6B7FD00544EEA /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A24A554D1AA6B7FD00544EEA /* TableViewCell.m */; };
+		A24A55501AA6B7FD00544EEA /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24A554E1AA6B7FD00544EEA /* TableViewCell.xib */; };
 		A24E9F911AA5539200C63583 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A24E9F901AA5539200C63583 /* main.m */; };
 		A24E9F941AA5539200C63583 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A24E9F931AA5539200C63583 /* AppDelegate.m */; };
 		A24E9F9C1AA5539200C63583 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24E9F9B1AA5539200C63583 /* Images.xcassets */; };
@@ -46,6 +50,12 @@
 		A24A55411AA6A26C00544EEA /* TestObjVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObjVC.h; sourceTree = "<group>"; };
 		A24A55421AA6A26C00544EEA /* TestObjVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObjVC.m; sourceTree = "<group>"; };
 		A24A55441AA6A59B00544EEA /* TestObjVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestObjVC.xib; sourceTree = "<group>"; };
+		A24A55471AA6B7D700544EEA /* TestTableViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewVC.h; sourceTree = "<group>"; };
+		A24A55481AA6B7D700544EEA /* TestTableViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewVC.m; sourceTree = "<group>"; };
+		A24A55491AA6B7D700544EEA /* TestTableViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTableViewVC.xib; sourceTree = "<group>"; };
+		A24A554C1AA6B7FD00544EEA /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		A24A554D1AA6B7FD00544EEA /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		A24A554E1AA6B7FD00544EEA /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		A24E9F8B1AA5539200C63583 /* YouZhi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouZhi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24E9F8F1AA5539200C63583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A24E9F901AA5539200C63583 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -119,6 +129,19 @@
 				A24A55441AA6A59B00544EEA /* TestObjVC.xib */,
 			);
 			path = TestObjVC;
+			sourceTree = "<group>";
+		};
+		A24A55461AA6B7B300544EEA /* TestTableView */ = {
+			isa = PBXGroup;
+			children = (
+				A24A55471AA6B7D700544EEA /* TestTableViewVC.h */,
+				A24A55481AA6B7D700544EEA /* TestTableViewVC.m */,
+				A24A55491AA6B7D700544EEA /* TestTableViewVC.xib */,
+				A24A554C1AA6B7FD00544EEA /* TableViewCell.h */,
+				A24A554D1AA6B7FD00544EEA /* TableViewCell.m */,
+				A24A554E1AA6B7FD00544EEA /* TableViewCell.xib */,
+			);
+			path = TestTableView;
 			sourceTree = "<group>";
 		};
 		A24E9F821AA5539200C63583 = {
@@ -202,6 +225,7 @@
 		A24E9FB81AA554B400C63583 /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				A24A55461AA6B7B300544EEA /* TestTableView */,
 				A24A55401AA6A25700544EEA /* TestObjVC */,
 				A24E9FE31AA5A84300C63583 /* WoDi */,
 				A24E9FD01AA56AF200C63583 /* KissAss */,
@@ -363,9 +387,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A24A554B1AA6B7D700544EEA /* TestTableViewVC.xib in Resources */,
 				A24E9FBF1AA558D800C63583 /* Home.storyboard in Resources */,
 				A24E9FD51AA5717C00C63583 /* KissAssVC.xib in Resources */,
 				A24E9F9F1AA5539200C63583 /* LaunchScreen.xib in Resources */,
+				A24A55501AA6B7FD00544EEA /* TableViewCell.xib in Resources */,
 				A24E9F9C1AA5539200C63583 /* Images.xcassets in Resources */,
 				A24E9FE81AA5A86D00C63583 /* WoDiVC.xib in Resources */,
 				A24A55451AA6A59B00544EEA /* TestObjVC.xib in Resources */,
@@ -391,7 +417,9 @@
 				A24E9F941AA5539200C63583 /* AppDelegate.m in Sources */,
 				A24E9FC41AA55BBC00C63583 /* BaseViewController.m in Sources */,
 				A24E9FE21AA5A81F00C63583 /* Common.m in Sources */,
+				A24A554A1AA6B7D700544EEA /* TestTableViewVC.m in Sources */,
 				A24E9FB51AA5548700C63583 /* README.md in Sources */,
+				A24A554F1AA6B7FD00544EEA /* TableViewCell.m in Sources */,
 				A24E9F911AA5539200C63583 /* main.m in Sources */,
 				A24A55431AA6A26C00544EEA /* TestObjVC.m in Sources */,
 				A24A553C1AA69CDF00544EEA /* TestObj.m in Sources */,

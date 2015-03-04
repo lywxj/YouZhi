@@ -10,6 +10,7 @@
 #import "HomeViewController.h"
 #import "KissAssVC.h"
 #import "TestObjVC.h"
+#import "TestTableViewVC.h"
 
 @interface HomeViewController ()
 @property (strong, nonatomic) IBOutlet UIButton *codeBtn;
@@ -27,8 +28,11 @@
 //    KissAssVC *kissAssVC = [[KissAssVC alloc] initWithNibName:@"KissAssVC" bundle:nil];
 //    [self presentViewController:kissAssVC animated:YES completion:nil];
     
-    TestObjVC *testObjVC = [[TestObjVC alloc] initWithNibName:@"TestObjVC" bundle:nil];
-    [self presentViewController:testObjVC animated:YES completion:nil];
+//    TestObjVC *testObjVC = [[TestObjVC alloc] initWithNibName:@"TestObjVC" bundle:nil];
+//    [self presentViewController:testObjVC animated:YES completion:nil];
+    
+    TestTableViewVC *testTableViewVC = [[TestTableViewVC alloc] initWithNibName:@"TestTableViewVC" bundle:nil];
+    [self presentViewController:testTableViewVC animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
