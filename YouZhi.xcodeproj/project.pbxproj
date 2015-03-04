@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A24A553C1AA69CDF00544EEA /* TestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = A24A553B1AA69CDF00544EEA /* TestObj.m */; };
+		A24A553F1AA69CF100544EEA /* TestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A24A553E1AA69CF000544EEA /* TestManager.m */; };
+		A24A55431AA6A26C00544EEA /* TestObjVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A24A55421AA6A26C00544EEA /* TestObjVC.m */; };
+		A24A55451AA6A59B00544EEA /* TestObjVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24A55441AA6A59B00544EEA /* TestObjVC.xib */; };
 		A24E9F911AA5539200C63583 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A24E9F901AA5539200C63583 /* main.m */; };
 		A24E9F941AA5539200C63583 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A24E9F931AA5539200C63583 /* AppDelegate.m */; };
 		A24E9F9C1AA5539200C63583 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24E9F9B1AA5539200C63583 /* Images.xcassets */; };
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A24A553A1AA69CDF00544EEA /* TestObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObj.h; sourceTree = "<group>"; };
+		A24A553B1AA69CDF00544EEA /* TestObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObj.m; sourceTree = "<group>"; };
+		A24A553D1AA69CF000544EEA /* TestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestManager.h; sourceTree = "<group>"; };
+		A24A553E1AA69CF000544EEA /* TestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestManager.m; sourceTree = "<group>"; };
+		A24A55411AA6A26C00544EEA /* TestObjVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObjVC.h; sourceTree = "<group>"; };
+		A24A55421AA6A26C00544EEA /* TestObjVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObjVC.m; sourceTree = "<group>"; };
+		A24A55441AA6A59B00544EEA /* TestObjVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestObjVC.xib; sourceTree = "<group>"; };
 		A24E9F8B1AA5539200C63583 /* YouZhi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouZhi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24E9F8F1AA5539200C63583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A24E9F901AA5539200C63583 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +92,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A24A55381AA69C9200544EEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A24A55391AA69CB900544EEA /* TestObj */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A24A55391AA69CB900544EEA /* TestObj */ = {
+			isa = PBXGroup;
+			children = (
+				A24A553A1AA69CDF00544EEA /* TestObj.h */,
+				A24A553B1AA69CDF00544EEA /* TestObj.m */,
+				A24A553D1AA69CF000544EEA /* TestManager.h */,
+				A24A553E1AA69CF000544EEA /* TestManager.m */,
+			);
+			path = TestObj;
+			sourceTree = "<group>";
+		};
+		A24A55401AA6A25700544EEA /* TestObjVC */ = {
+			isa = PBXGroup;
+			children = (
+				A24A55411AA6A26C00544EEA /* TestObjVC.h */,
+				A24A55421AA6A26C00544EEA /* TestObjVC.m */,
+				A24A55441AA6A59B00544EEA /* TestObjVC.xib */,
+			);
+			path = TestObjVC;
+			sourceTree = "<group>";
+		};
 		A24E9F821AA5539200C63583 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +143,7 @@
 		A24E9F8D1AA5539200C63583 /* YouZhi */ = {
 			isa = PBXGroup;
 			children = (
+				A24A55381AA69C9200544EEA /* Model */,
 				A24E9FDE1AA5A81F00C63583 /* Lib */,
 				A24E9FB61AA554B400C63583 /* Other */,
 				A24E9FB71AA554B400C63583 /* Problem */,
@@ -161,6 +202,7 @@
 		A24E9FB81AA554B400C63583 /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				A24A55401AA6A25700544EEA /* TestObjVC */,
 				A24E9FE31AA5A84300C63583 /* WoDi */,
 				A24E9FD01AA56AF200C63583 /* KissAss */,
 				A24E9FC01AA55BAE00C63583 /* Base */,
@@ -326,6 +368,7 @@
 				A24E9F9F1AA5539200C63583 /* LaunchScreen.xib in Resources */,
 				A24E9F9C1AA5539200C63583 /* Images.xcassets in Resources */,
 				A24E9FE81AA5A86D00C63583 /* WoDiVC.xib in Resources */,
+				A24A55451AA6A59B00544EEA /* TestObjVC.xib in Resources */,
 				A24E9FEC1AA5AD7900C63583 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,8 +393,11 @@
 				A24E9FE21AA5A81F00C63583 /* Common.m in Sources */,
 				A24E9FB51AA5548700C63583 /* README.md in Sources */,
 				A24E9F911AA5539200C63583 /* main.m in Sources */,
+				A24A55431AA6A26C00544EEA /* TestObjVC.m in Sources */,
+				A24A553C1AA69CDF00544EEA /* TestObj.m in Sources */,
 				A24E9FBD1AA558C700C63583 /* HomeViewController.m in Sources */,
 				A24E9FE71AA5A86D00C63583 /* WoDiVC.m in Sources */,
+				A24A553F1AA69CF100544EEA /* TestManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

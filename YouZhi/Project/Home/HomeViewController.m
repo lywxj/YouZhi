@@ -9,6 +9,7 @@
 
 #import "HomeViewController.h"
 #import "KissAssVC.h"
+#import "TestObjVC.h"
 
 @interface HomeViewController ()
 @property (strong, nonatomic) IBOutlet UIButton *codeBtn;
@@ -23,8 +24,11 @@
 }
 
 - (IBAction)codeBtnClick:(id)sender {
-    KissAssVC *kissAssVC = [[KissAssVC alloc] initWithNibName:@"KissAssVC" bundle:nil];
-    [self presentViewController:kissAssVC animated:YES completion:nil];
+//    KissAssVC *kissAssVC = [[KissAssVC alloc] initWithNibName:@"KissAssVC" bundle:nil];
+//    [self presentViewController:kissAssVC animated:YES completion:nil];
+    
+    TestObjVC *testObjVC = [[TestObjVC alloc] initWithNibName:@"TestObjVC" bundle:nil];
+    [self presentViewController:testObjVC animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
